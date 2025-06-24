@@ -144,3 +144,4 @@ All detections, tracks, and behaviors are saved in a structured JSON format for 
 
 1.  **ReID Model Not Found**: Ensure the `veriwild_bot_R50-ibn.pth` file is correctly placed in the `models/` directory.
 2.  **CUDA Issues**: Verify that your PyTorch installation is compatible with your installed CUDA 12.1 toolkit.
+3.  **Ideal Structure (to avoid issues)**: Make sure to create a 'models' and an (optional) 'output' folder for creation of the datatset.

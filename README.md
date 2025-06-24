@@ -27,25 +27,25 @@ Download the required models and place them in the `models/` directory:
 
 ```
 project/
-├── main.py              # Main GUI application entry point
-├── batch_process.py     # Batch processing functions
-├── config.py            # Configuration settings
-├── utils.py             # Utility functions
-├── setup.py             # Package setup
-├── requirements.txt     # Dependencies
-├── README.md            # This file
-├── botsort.yaml         # BoT-SORT tracker configuration
-├── modules/             # Core modules
+├── main.py              #Main GUI application entry point
+├── batch_process.py     #Batch processing functions
+├── config.py            #Configuration settings
+├── utils.py             #Utility functions
+├── setup.py             #Package setup
+├── requirements.txt     #Dependencies
+├── README.md            #This file
+├── botsort.yaml         #BoT-SORT tracker configuration
+├── modules/             #Core modules
 │   ├── __init__.py
-│   ├── detector.py      # YOLO detection logic
-│   ├── tracker.py       # BoT-SORT tracking logic
-│   ├── annotator.py     # Manual annotation GUI
-│   ├── behavior.py      # Behavior tagging GUI
-│   └── exporter.py      # Data merging logic
-├── models/              # YOLO and ReID models
+│   ├── detector.py      #YOLO based detection logic
+│   ├── tracker.py       #BoT-SORT tracking logic
+│   ├── annotator.py     #Manual annotation GUI
+│   ├── behavior.py      #Behavior tagging GUI
+│   └── exporter.py      #Data merging logic
+├── models/              #YOLO and ReID models
 │   ├── yolo11m-obb.pt
 │   └── veriwild_bot_R50-ibn.pth
-└── output/              # Default output directory
+└── output/              #Default output directory
     ├── detections/
     ├── tracking/
     ├── manual/

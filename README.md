@@ -71,6 +71,8 @@ This tab is used for running vehicle detection on a single image file.
   * **Output Directory**: Choose where the annotated image and `detections.json` file will be saved.
   * **Confidence Threshold**: Set the confidence threshold for detection.
 
+![The Detect tab](./images/SS5.png)
+
 ### Track Tab
 
 This tab is used for running vehicle tracking on a single video file.

@@ -1,6 +1,6 @@
 #The BehaviorTagger module provides a GUI application for tagging behaviors in video frames.
 #It allows users to select tracks, view video frames, and annotate behaviors with start and end frames,
-#movement types, maneuver types, and lane changes for each tracked vehicle in the video.
+#and add movement types, maneuver types, and lane changes for each tracked vehicle in the video.
 
 import os
 import json

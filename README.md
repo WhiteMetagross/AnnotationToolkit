@@ -71,7 +71,7 @@ This tab is used for running vehicle detection on a single image file.
   * **Output Directory**: Choose where the annotated image and `detections.json` file will be saved.
   * **Confidence Threshold**: Set the confidence threshold for detection.
 
-![The Detect tab](./images/SS5.png)
+![Detect tab](./images/SS5.png)
 
 ### Track Tab
 
@@ -81,6 +81,8 @@ This tab is used for running vehicle tracking on a single video file.
   * **YOLO Model**: Specify the path to the `.pt` model file.
   * **Output Directory**: Choose where the annotated video and `_tracks.json` file will be saved.
   * **Confidence Threshold**: Set the confidence threshold for tracking.
+
+![Track tab](./images/SS6.png)
 
 ### Manual Annotate Tab
 
@@ -96,6 +98,8 @@ Launches a dedicated window for manual annotation of objects in images or videos
       * **Ctrl+Shift+Z**: Redo the last undone action.
       * **Buttons**: Use the "Previous" and "Next" buttons for frame navigation, and "Save" to save progress.
 
+![Manual Annotator tab](./images/SS1.png)
+
 ### Tag Behavior Tab
 
 Launches a dedicated window for tagging behaviors of tracked vehicles in a video. This requires a video file and its corresponding tracks JSON file generated from the "Track" tab.
@@ -106,6 +110,8 @@ Launches a dedicated window for tagging behaviors of tracked vehicles in a video
   * **Controls**:
       * **Click**: Select a tracked vehicle in the video frame to tag its behavior.
       * **Keyboard Shortcuts**: Use 'A' and 'S' to set the start and end frames for a behavior, and 'Left'/'Right' arrow keys for frame navigation.
+   
+![Behavior Tagger tab](./images/SS2.png)
 
 ### Merge Tab
 
@@ -123,6 +129,8 @@ This tab allows for running detection or tracking on a directory of images or vi
   * **Input Directory**: Select the folder containing the media files.
   * **YOLO Model**: Specify the path to the `.pt` model file.
   * **Output Directory**: Choose a parent directory for the output results. The tool will create subdirectories for each processed file.
+
+![Batch Processer tab](./images/SS3.png)
 
 ## BoT-SORT Configuration
 

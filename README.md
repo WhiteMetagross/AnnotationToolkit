@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Download the required models and place them in the `models/` directory:
 
 1.  **YOLO Model**: Place `yolo11m-obb.pt/yolo11m.pt` or your custom pretrained model in the `models/` directory. This is the default model path used by the application.
-2.  **ReID Model**: Download `veriwild_bot_R50-ibn.pth` from the [fast-reid MODEL\_ZOO](https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md) and place it in the `models/` directory. This model is required for the BoT-SORT tracker with ReID enabled.
+2.  **ReID Model**: Download `veriwild_bot_R50-ibn.pth` from the [fast-reid MODEL\_ZOO](https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md) or your custom ReID and place it in the `models/` directory. This model is required for the BoT-SORT tracker with ReID enabled.
 
 ## Folder Structure
 
